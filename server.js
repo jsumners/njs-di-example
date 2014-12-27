@@ -5,7 +5,7 @@
 // on Hapi.
 var Hapi = require('hapi');
 
-// Here we instantiating our Inversion of Control (IoC) container.
+// Here we are instantiating our Inversion of Control (IoC) container.
 // See https://en.wikipedia.org/wiki/Inversion_of_control
 var ioc = require('electrolyte');
 

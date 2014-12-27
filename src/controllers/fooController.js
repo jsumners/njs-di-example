@@ -29,7 +29,7 @@ exports = module.exports = function(Bar, Foo) {
 
   // Here we are defining the data that fooController will return.
   // Normally this would probably be done in a service module or elsewhere.
-  // But this suffices for out demonstration.
+  // But this suffices for our demonstration.
   foo = new Foo();
   var bar1 = new Bar();
   var bar2 = new Bar('What is the date?', (new Date()).getDate());
