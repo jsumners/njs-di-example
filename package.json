@@ -1,0 +1,23 @@
+{
+  "name": "di-example",
+  "version": "0.1.0",
+  "description": "An example of using Inversion of Control and Dependency Injection with Electrolyte",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James Sumners",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsumners/njs-di-example.git"
+  },
+  "homepage": "https://github.com/jsumners/njs-di-example",
+  "bugs": {
+    "url": "https://github.com/jsumners/njs-di-example/issues"
+  },
+  "dependencies": {
+    "electrolyte": "0.0.6",
+    "hapi": "^8.0.0"
+  }
+}
