@@ -12,4 +12,16 @@ settings.server.connection = {
   port: 8080
 };
 
+settings.db = {};
+settings.db.url = {
+  // See https://github.com/grncdr/parse-db-url#api for format
+  adapter: 'sqlite3',
+  database: '/tmp/example.sqlite3'
+};
+settings.db.poolOptions = {
+  // See https://github.com/grncdr/node-any-db-pool#api for options
+  min: 1,
+  max: 20
+};
+
 exports = module.exports = settings;

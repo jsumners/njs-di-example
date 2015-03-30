@@ -16,6 +16,8 @@ var ioc = require('electrolyte');
 ioc.loader('models', ioc.node('src/models'));
 ioc.loader('controllers', ioc.node('src/controllers'));
 ioc.loader('config', ioc.node('src/config'));
+// This namespace is for core modules, e.g. database connection modules.
+ioc.loader('core', ioc.node('src/core'));
 
 // Here we use the IoC container to instantiate a new instance, or retrieve
 // an existing one (in the case of singletons), of a component. In this case,
